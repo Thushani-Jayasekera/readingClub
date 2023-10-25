@@ -15,7 +15,7 @@ function Home() {
           title="Reading Club"
           subtitle="Join us today and get 20% off!"
         >
-          <Link to="/rooms" className="btn-primary">
+          <Link to="/membership" className="btn-primary">
             Join Club
           </Link>
         </Banner>
