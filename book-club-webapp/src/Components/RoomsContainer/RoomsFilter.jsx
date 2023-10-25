@@ -6,6 +6,7 @@ import { RoomContext } from "../../Context/Context";
 
 // import components
 import Title from "../Title/Title";
+import Services from "../Services/Services";
 
 // get all unique values
 const getUnique = (items, value) => {
@@ -53,6 +54,8 @@ export default function RoomFilter({ rooms }) {
 
   return (
     <section className="filter-container">
+      <Title title="Membership Plans" />
+      <Services/>
       <Title title="search rooms" />
 
       <form className="filter-form">

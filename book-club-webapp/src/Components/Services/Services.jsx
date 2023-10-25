@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 // imports react-icons
-import { FaCocktail, FaHiking, FaShuttleVan, FaBeer } from "react-icons/fa";
+import { FaCocktail, FaHiking, FaShuttleVan, FaBeer, FaAccessibleIcon, FaAccusoft } from "react-icons/fa";
 
 // imports components
 import Title from "../Title/Title";
@@ -11,19 +11,19 @@ export default class Services extends Component {
     services: [
       {
         icon: <FaCocktail />,
-        title: "Monthly Book Selections",
+        title: "Golden Book Club Membership",
         info:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores est eaque error provident unde eligendi.",
       },
       {
         icon: <FaHiking />,
-        title: "Organized Discussions",
+        title: "Climber Book Club Membership",
         info:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores est eaque error provident unde eligendi.",
       },
       {
-        icon: <FaShuttleVan />,
-        title: "Guest Author Events",
+        icon: <FaAccusoft />,
+        title: "Cruise Book Club Membership",
         info:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores est eaque error provident unde eligendi.",
       },
@@ -33,7 +33,7 @@ export default class Services extends Component {
   render() {
     return (
       <section className="services">
-        <Title title="services" />
+
 
         <div className="services-center">
           {this.state.services.map((item, index) => {

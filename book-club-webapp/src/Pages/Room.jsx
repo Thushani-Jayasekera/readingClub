@@ -12,9 +12,9 @@ function Room() {
   return (
     <>
       <Hero hero="roomsHero">
-        <Banner title="our rooms">
+        <Banner title="Membership Plans">
           <Link to="/" className="btn-primary">
-            return home
+            Home
           </Link>
         </Banner>
       </Hero>
