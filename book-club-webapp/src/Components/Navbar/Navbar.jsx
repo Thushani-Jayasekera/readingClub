@@ -4,7 +4,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 // import assets
-import Logo from "../../assets/img/svg/logo.svg";
+import Logo from "../../assets/img/svg/logo.jpg";
 import { FaAlignRight } from "react-icons/fa";
 
 export default class Navbar extends Component {
@@ -22,7 +22,7 @@ export default class Navbar extends Component {
           <div className="nav-header">
             {/* app logo */}
             <Link to="/">
-              <img src={Logo} alt="Reach Resort" />
+              <img src={Logo} alt="Reach Resort" style={{ height: '50px' }} />
             </Link>
 
             {/* navbar toggle button */}
@@ -42,7 +42,13 @@ export default class Navbar extends Component {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/rooms">Rooms</Link>
+              <Link to="/rooms">Reading List</Link>
+            </li>
+            <li>
+              <Link to="/rooms">Blog</Link>
+            </li>
+            <li>
+              <Link to="/rooms">Gallery</Link>
             </li>
           </ul>
         </div>

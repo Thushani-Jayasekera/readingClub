@@ -12,11 +12,11 @@ function Home() {
     <>
       <Hero>
         <Banner
-          title="luxurious rooms"
-          subtitle="deluxe rooms starting at $299"
+          title="Reading Club"
+          subtitle="Join us today and get 20% off!"
         >
           <Link to="/rooms" className="btn-primary">
-            our rooms
+            Join Club
           </Link>
         </Banner>
       </Hero>
